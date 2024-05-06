@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTMX Testing</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/10.11.1/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/10.11.1/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/10.11.1/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/10.11.1/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/10.11.1/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/10.11.1/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/10.11.1/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/10.11.1/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/10.11.1/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/10.11.1/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/htmx.org@1.9.12" integrity="sha384-ujb1lZYygJmzgSwoxRggbCHcjc0rB2XoQrxeTUQyRjrOnlCoYta87iKBWq3EsdM2" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>HTMX Testing</title>
+  </head>
+  <body>
+    <div class="text-center">
+      <h1 class="text-2xl font-bold my-5">Testing HTMX Functionality</h1>
+      <p>Website testing various HTMX functions and APIs.  Click each link to view a different test.</p>
+      <br><br>
+      
+      <a href="/request.html" class="bg-blue-500 text-white py-2 px-3 my-5 rounded-lg">Request Testing</a>
+      <a href="/search.html" class="bg-blue-500 text-white py-2 px-3 my-5 rounded-lg">Search Testing</a>
+      <a href="/email.html" class="bg-blue-500 text-white py-2 px-3 my-5 rounded-lg">Email Testing</a>
+    </div>
+  </body>
+</html>
